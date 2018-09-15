@@ -1,7 +1,4 @@
 tony hawk pro skater'S name isn't tony hawk
 Ramy added this line
-<<<<<<< HEAD
 Skateboards are rad
 Ramy added a second line
-=======
->>>>>>> parent of bba107f... added a second line to a file
