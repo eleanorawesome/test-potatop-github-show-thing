@@ -55,7 +55,9 @@
 						"live-preview": false
 					},
 					"uid": 19,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"canclone": true
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {

@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 332811481588238,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "canclone",
+			"type": "boolean",
+			"desc": "",
+			"sid": 979254338877309
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Bullet",

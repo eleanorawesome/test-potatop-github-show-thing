@@ -56,6 +56,87 @@
 				}
 			],
 			"sid": 221351676270313
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bullet",
+					"sid": 204359429094991,
+					"parameters": {
+						"object": "block"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "bullet",
+					"sid": 318234315794064,
+					"parameters": {
+						"instance-variable": "canclone"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "call-function",
+					"objectClass": "Function",
+					"sid": 880283390131813,
+					"parameters": {
+						"name": "\"createbullet\"",
+						"parameter-n": [
+							"bullet.X",
+							"bullet.Y",
+							"bullet.Angle"
+						]
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "bullet",
+					"sid": 264834835138213,
+					"parameters": {
+						"instance-variable": "canclone",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 129047850395076
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-function",
+					"objectClass": "Function",
+					"sid": 786471203560857,
+					"parameters": {
+						"name": "\"createbullet\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 548964886856620,
+					"parameters": {
+						"object-to-create": "bullet",
+						"layer": "0",
+						"x": "Function.Param(0)",
+						"y": "Function.Param(1)"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "bullet",
+					"sid": 266620324459073,
+					"parameters": {
+						"angle": "Function.Param(2)+random(-10,10)"
+					}
+				}
+			],
+			"sid": 909099681167105
 		}
 	],
 	"sid": 916067214188072

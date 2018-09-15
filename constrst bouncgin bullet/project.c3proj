@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Function",
+			"name": "Function",
+			"author": "Scirra",
+			"version": "r111",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
@@ -70,7 +78,8 @@
 			"bullet",
 			"Mouse",
 			"block",
-			"Text"
+			"Text",
+			"Function"
 		],
 		"subfolders": []
 	},
