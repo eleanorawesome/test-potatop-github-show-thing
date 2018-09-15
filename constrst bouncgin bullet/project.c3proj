@@ -53,6 +53,14 @@
 			"author": "Scirra",
 			"version": "r111",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r111",
+			"bundled": false
 		}
 	],
 	"uniqueId": "dfka14j5utg",
@@ -61,6 +69,7 @@
 			"player",
 			"bullet",
 			"Mouse",
+			"block",
 			"Text"
 		],
 		"subfolders": []
